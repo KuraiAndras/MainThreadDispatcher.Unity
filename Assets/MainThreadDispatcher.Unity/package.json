@@ -1,6 +1,6 @@
 {
     "name": "com.mainthreaddispatcher.unity",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Unity Main Thread Dispatcher",
     "author": {
         "name": "Kurai András",
