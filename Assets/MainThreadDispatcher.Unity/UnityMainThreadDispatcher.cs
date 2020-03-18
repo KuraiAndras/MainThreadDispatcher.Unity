@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace MainThreadDispatcher.Unity
 {
-    public sealed class UnityMainThreadDispatcher : MonoBehaviour
+    public sealed class UnityMainThreadDispatcher : MonoBehaviour, IMainThreadDispatcher
     {
         private readonly ConcurrentQueue<Task> _taskQueue = new ConcurrentQueue<Task>();
         private int _mainThreadId = -1;
