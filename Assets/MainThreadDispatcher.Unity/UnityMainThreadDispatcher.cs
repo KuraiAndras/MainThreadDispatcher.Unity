@@ -15,7 +15,12 @@ namespace MainThreadDispatcher.Unity
 
         public void Invoke(Action action)
         {
-            if (CurrentThreadId == _mainThreadId) action();
+            if (CurrentThreadId == _mainThreadId)
+            {
+                action();
+
+                return;
+            }
 
             _taskQueue.Enqueue(new Task(action));
         }
