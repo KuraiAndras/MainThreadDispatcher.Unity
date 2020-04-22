@@ -1,3 +1,6 @@
+# Notice
+This project moved to a [mono repo](https://github.com/KuraiAndras/MainThreadDispatcher).
+
 # MainThreadDispatcher.Unity
 
 [![openupm](https://img.shields.io/npm/v/com.mainthreaddispatcher.unity?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mainthreaddispatcher.unity/)
